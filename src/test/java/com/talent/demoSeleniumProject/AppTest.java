@@ -21,7 +21,7 @@ public class AppTest {
 		options.addArguments("--disable-notifications");
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://leetcode.com/u/Paresh_kumar/");
-		driver.quit();
+//		driver.quit();
 	}
 
 }
